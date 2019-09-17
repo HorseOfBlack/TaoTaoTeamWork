@@ -1,23 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-
 <head>
 
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 
-	<title>华清远见高端IT培训</title>
+	<title>淘淘商城</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
-
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-
 	<link rel="stylesheet" type="text/css" href="css/global.css">
-
 	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
-
 	<script type="text/javascript" src="js/jsstyle.js"></script>
-
 </head>
 
 <body>
@@ -72,12 +67,11 @@
 
 				<span>您好，欢迎来到京东！
 
-				<a href="login.html">[登陆]</a><a href="">[免费注册]</a>
+				<a href="login.jsp">[登陆]</a><a href="regist.jsp">[免费注册]</a>
 
 				</span>
 
 			</div>
-
 
 
 			<div class="topright">
@@ -88,7 +82,7 @@
 
 					<div class="cun">
 
-						<a href="">我的订单</a>
+						<a href="flow1.jsp">我的订单</a>
 
 					</div>
 
@@ -285,17 +279,11 @@
 		<div class="sou">
 
 			<div class="sousuo">
-
 				<input type="text" class="kuang" value="跨界" style="color:#999;font-size:14px" />
-
 				<div class="souzi"><a href="">搜索</a></div>
-
 			</div>
-
 			<div class="reci">
-
 				<span>热门搜索:</span>	
-
 				<a href="" style="color:red">校园之星</a>
 
 				<a href="">影院到家</a>
@@ -332,7 +320,7 @@
 
 					<span>您好，请</span>
 
-					<a href="">登录</a>
+					<a href="login.jsp">登录</a>
 
 				</div>
 
@@ -400,7 +388,7 @@
 
 			<div class="chetu"></div>
 
-			<a href="">去购物车结算</a>
+			<a href="flow1.jsp">去购物车结算</a>
 
 			<div class="jianleft"></div>
 
